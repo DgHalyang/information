@@ -29,5 +29,17 @@ for (var prop in obj) {
         console.log(obj[prop])
         // 13 123
     }
-
 }
+
+// forEach
+array.forEach(element => {
+    console.log(element)
+});
+
+// filter
+array.filter(element => element.id === item.id)
+
+// map
+// array.map(element => )
+
+// reduce
